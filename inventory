@@ -1,0 +1,8 @@
+[prometheus]
+127.0.0.1
+
+[node_exporter]
+127.0.0.1
+
+[grafana]
+127.0.0.1
