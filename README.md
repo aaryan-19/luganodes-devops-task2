@@ -36,3 +36,5 @@ Troubleshooting steps
 2.	Go to prometheus.conf.j2 in roles/prometheus/templates and add a list in target for job_name: ‘node_exporter’ containing your host ip and port number 9090 for prometheus
 
 `Note – if you have multiple target host then add the ip and port to the target list only.`
+
+`Note - Test on Ubuntu 22.04 on AWS EC2 instance.`
